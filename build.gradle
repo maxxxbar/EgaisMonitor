@@ -25,3 +25,12 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    gsonVersion = "2.8.7"
+    navigationVersion = "2.3.5"
+    insetterVersion = "0.6.0"
+    hiltVersion = "2.37"
+    okHttpVersion = "4.9.0"
+    retrofitVersion = "2.9.0"
+}
